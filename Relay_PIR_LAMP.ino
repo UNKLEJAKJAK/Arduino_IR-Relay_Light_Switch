@@ -11,7 +11,7 @@ void loop(){
 
   while (digitalRead (irmotionPin) == HIGH) { // If Motion detected 
     digitalWrite(relayPin, HIGH); // Turn Relay ON
-    Serial.println("Relay is ON"); // Show satus in seriel output
+    Serial.println("Relay is ON"); // Show satus in serial output
     delay(120000);
   }
 
