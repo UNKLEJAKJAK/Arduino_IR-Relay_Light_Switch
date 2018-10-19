@@ -16,7 +16,7 @@ void loop(){
   }
 
   digitalWrite(relayPin, LOW); // Turn Relay OFF
-  Serial.println("Relay is OFF"); // Show off status in seriel output
+  Serial.println("Relay is OFF"); // Show off status in serial output
   delay(500);
 }
 
